@@ -1,4 +1,6 @@
-class Axial
+require_relative 'coordinate'
+
+class Axial < Coordinate
     attr_reader :q
     attr_reader :r
     
@@ -54,12 +56,3 @@ class Axial
         "(#{q}, #{r})"
     end
 end
-
-# a = Axial.new(0,0)
-# b = Axial.new(1,4)
-# # puts a.neighbors
-# # puts Axial.directions
-# # #puts a.distance(b)
-# # ns = Axial.directions.map{ |x| x+a }
-# # puts [1, 2]
-# puts a.linear_interpolation(b)

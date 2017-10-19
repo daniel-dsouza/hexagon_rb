@@ -1,4 +1,4 @@
-require_relative '../coordinate/axial'
+require_relative '../coordinate/coordinate'
 
 class SimpleMap < Hash
     def neighbors(key)
