@@ -7,7 +7,10 @@ Gem::Specification.new do |s|
     s.authors = ["Daniel D'Souza"]
     s.email = 'daniel.dsouza5@gmail.com'
     s.files = [
-        "lib/hexagon.rb"
+        "lib/algorithm/reachable.rb"
+        "lib/hexagon.rb",
+        "lib/coordinate/axial.rb"
+        "lib/storage/simple_map.rb"
     ]
     s.homepage = 'http://github.com/daniel-dsouza/hexagon_rb'
     s.license = 'MIT'
