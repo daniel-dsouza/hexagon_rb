@@ -1,6 +1,6 @@
 require_relative '../coordinate/coordinate'
 
-class SimpleMap < Hash
+class SimpleHash < Hash
     def neighbors(key)
         key.neighbors.select { |x| self[x] != nil }
     end
